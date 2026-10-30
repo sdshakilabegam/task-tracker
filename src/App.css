@@ -1,0 +1,66 @@
+.app {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+.add-form {
+  display: flex;
+  gap: 8px;
+}
+.add-form input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+.add-form button {
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.error-text {
+  color: #c0392b;
+  margin: 6px 0 0;
+}
+.summary {
+  margin: 14px 0 6px;
+  font-size: 14px;
+  color: #555;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-left: 4px solid #2e9e5b;
+  background: #e8f6ee;
+  border-radius: 6px;
+}
+.task label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.task.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.task button {
+  cursor: pointer;
+}
+.empty {
+  text-align: center;
+  color: #777;
+}
